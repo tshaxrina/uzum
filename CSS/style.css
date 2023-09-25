@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header{
+    max-width: 1240px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrap {
+    max-width: 1240px;
+    min-width: 320px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.header_top {
+        align-items: stretch;
+        background-color: #f4f5f5;
+        display: flex;
+        justify-content: stretch;
+        min-height: 32px;
+        width: 100%;
+}
+.header_top div {
+    display: flex;
+    gap: 15px;
+}
+.right h3 {
+    font-weight: 500
+}
+.left a {
+    align-items: center;
+    background: 0 0;
+    border: none;
+    color: #62656a;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    max-height: 32px;
+    padding: 0 12px 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.header_main {
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.header_main button {
+    column-gap: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 36px;
+    letter-spacing: .006em;
+    line-height: 18px;
+    padding: 0 12px;
+    text-align: center;
+    background-color: rgba(49,49,196,.1);
+    border-radius: 4px;
+    color: #33c;
+    height: 40px!important;
+    margin-right: 7px;
+    width: 120px;
+    border-width: 0px;
+}
+.header_main input {
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    width: 50%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.header_main a {
+    align-items: center;
+    background: 0 0;
+    border: none;
+    color: #62656a;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    max-height: 32px;
+    padding: 0 12px 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.header_bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 38px;
+    justify-content: space-between;
+    margin: 0 -10px;
+    position: relative;
+    width: 100%;
+}
+.header_bottom a {
+    text-decoration: none;
+    color: darkgray;
+}
+.item img {
+    width: 300px;
+    border-radius: 25px;
+}
+.item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
